@@ -4,7 +4,8 @@ using System.Diagnostics;
 
 namespace ALEX.Win32
 {
-    public sealed class PowerManagement 
+    //public sealed class PowerManagement
+    public class PowerManagement
     {
         public static Guid GetActiveSchemeGuid()
         {

@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
+
+using ALEX.Win32;
 
 namespace TestWPFApp
 {
@@ -23,7 +26,7 @@ namespace TestWPFApp
         public MainWindow()
         {
             InitializeComponent();
-            var a = new ALEX.Win32.TestClass();
+            Debug.WriteLine("GetActiveSchemeGuid : " + PowerManagement.GetActiveSchemeGuid());
         }
     }
 }

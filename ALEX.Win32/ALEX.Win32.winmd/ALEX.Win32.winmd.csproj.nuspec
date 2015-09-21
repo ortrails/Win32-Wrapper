@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>ALEX.Win32.sln</id>
+    <id>ALEX.Win32.winmd.csproj</id>
     <version>0.0.1</version>
     <authors>Alexander Witteveen</authors>
     <owners>Alexander Witteveen</owners>
     <licenseUrl>https://raw.githubusercontent.com/AlexWitteveen/Win32-Wrapper/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/AlexWitteveen/Win32-Wrapper.git</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://github.com/AlexWitteveen/Win32-Wrapper/blob/master/ALEX.Win32/Logo.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Personal .Net wrapper for Win32 methods</description>
     <releaseNotes>Initial release.</releaseNotes>

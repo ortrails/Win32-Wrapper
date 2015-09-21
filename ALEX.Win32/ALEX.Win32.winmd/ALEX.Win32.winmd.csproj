@@ -111,6 +111,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="ALEX.Win32.winmd.csproj.nuspec" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>

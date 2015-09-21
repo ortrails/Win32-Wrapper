@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ALEX.Win32.PowerManagement</id>
-    <version>0.1.5</version>
+    <version>0.1.7</version>
     <title>ALEX Win32 Power Management .net wrapper</title>
     <authors>Alexander Witteveen</authors>
     <owners>Alexander Witteveen</owners>
@@ -22,7 +22,7 @@
     <file src="DLL.NET46\bin\Release\*.pdb" target="lib\net46"/>
     <!-- UAP 10.0 -->
     <file src="DLL.UAP100\bin\Release\*.*" target="lib\uap10.0"/>
-    <file src="DLL.UAP100\Properties\*.rd.xml" target="lib\uap10.0\ALEX.Win32.dll\Properties"/>
+    <file src="DLL.UAP100\Properties\*.rd.xml" target="lib\uap10.0\ALEX.Win32.PowerManagement\Properties"/>
   </files>
 </package>
 

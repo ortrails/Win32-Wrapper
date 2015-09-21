@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>..\Win32-Wrapper\ALEX.Win32\ALEX.Win32.sln</id>
+    <version>0.0.1</version>
+    <authors>Alexander Witteveen</authors>
+    <owners>Alexander Witteveen</owners>
+    <licenseUrl>https://raw.githubusercontent.com/AlexWitteveen/Win32-Wrapper/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/AlexWitteveen/Win32-Wrapper.git</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Personal .Net wrapper for Win32 methods</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Public Domain</copyright>
+    <tags>Win32</tags>
+  </metadata>
+</package>

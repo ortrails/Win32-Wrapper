@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ALEX.Win32</RootNamespace>
-    <AssemblyName>ALEX.Win32.dll</AssemblyName>
+    <AssemblyName>ALEX.Win32.PowerManagement.dll</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

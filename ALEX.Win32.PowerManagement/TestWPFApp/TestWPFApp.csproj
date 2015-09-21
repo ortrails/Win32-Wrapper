@@ -96,9 +96,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ALEX.Win32.dll\ALEX.Win32.dll.csproj">
+    <ProjectReference Include="..\DLL.NET46\DLL.NET46.csproj">
       <Project>{f9c5bca8-5d37-40ac-85f2-3ff3945afd67}</Project>
-      <Name>ALEX.Win32.dll</Name>
+      <Name>DLL.NET46</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

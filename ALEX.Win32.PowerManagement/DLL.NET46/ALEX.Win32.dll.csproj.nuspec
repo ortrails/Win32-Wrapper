@@ -1,17 +1,27 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>ALEX.Win32.winmd.csproj</id>
-    <version>0.0.1</version>
+    <id>ALEX.Win32.dll</id>
+    <version>0.1.0</version>
+    <title>ALEX Win32 .net wrapper</title>
     <authors>Alexander Witteveen</authors>
     <owners>Alexander Witteveen</owners>
+    <summary>Personal .Net wrapper for Win32 methods</summary>
     <licenseUrl>https://raw.githubusercontent.com/AlexWitteveen/Win32-Wrapper/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/AlexWitteveen/Win32-Wrapper.git</projectUrl>
-    <iconUrl>https://github.com/AlexWitteveen/Win32-Wrapper/blob/master/ALEX.Win32/Logo.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/AlexWitteveen/Win32-Wrapper/master/ALEX.Win32/Logo.32x32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Personal .Net wrapper for Win32 methods</description>
     <releaseNotes>Initial release.</releaseNotes>
     <copyright>Public Domain</copyright>
-    <tags>Win32</tags>
+    <tags>Win32 PInvoke dotNet</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\*.dll" target="lib\net46"/>
+    <file src="bin\Release\*.pdb" target="lib\net46"/>
+  </files>
 </package>
+
+<!--
+  http://docs.nuget.org/Create/NuSpec-Reference
+-->
